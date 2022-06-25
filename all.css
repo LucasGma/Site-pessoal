@@ -1,0 +1,261 @@
+
+    *{
+        margin: 0;
+        
+    }
+   
+    
+    body {
+        background-color: #FDF5E6;
+      
+        font-family: 'Oswald', sans-serif;
+       
+        justify-content: center;
+       
+    }
+
+
+    .menu {
+        background:#fff0f5;
+
+        border-bottom: solid 5px blueviolet;
+        padding: 15px 10px;
+      
+        
+    }
+
+    .menu a {
+        
+        padding: 10px 10px;
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 1.2em;
+    }
+
+    .menu a:hover{
+        background-color: rgba(79, 173, 219, .4);
+    }
+
+    
+    .video {
+        display: inline-block;
+        border: solid 1px #ccc;
+        width: 310px;
+        height:320px;
+        background-color: white;
+       
+        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+        margin:5px 20px;
+        padding: 5px;
+    }
+    .foto{
+        display: inline-block;
+        border: solid 1px #ccc;
+        width: 310px;
+        height:320px;
+        background-color: white;
+       
+        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+        margin:5px 25px;
+        padding: 5px;
+
+    }
+
+    
+   
+    .total2 {
+        text-align: center;
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        
+     
+       
+        
+    }
+    
+
+  
+    .total2 h1 {
+
+        
+            color: white;
+            font-size: 30px;
+            text-align: center;
+          
+            padding: 5px 10px;
+           
+    }
+
+    
+    .total2 nav {
+
+        display: inline-block;
+        
+       
+           
+    }
+
+   
+
+   .rodape {
+       height: 100px;
+       background-color: pink;
+       font-size: 20px;
+       color:gray;
+       
+       padding: 10px 10px;
+       text-align: center;
+       
+       
+   }
+   
+   .texto {
+       color:blueviolet;
+        display: inline-block;
+        padding: 5px;
+        
+   }
+  
+    
+   div img,video {
+       width: 300px;
+       height: 260px;
+       object-fit: cover;
+     
+      
+      
+      
+   }
+
+   
+   div h1{
+       background-color: blueviolet;
+       width: 100px;
+       color: white;
+     
+      
+      
+   }
+
+   img:hover {
+	
+	transform: scale(1.05);
+}
+
+video:hover{
+    
+	transform: scale(1.05);
+}
+
+
+.campo {
+    margin-bottom: 1em;
+}
+
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+
+
+.botao {
+    font-size: 1.2em;
+    background: blueviolet;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+   
+   
+}
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+form {
+    margin-left: 250px;
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+
+fieldset {
+    border: 0;
+    color:#59429d;
+    padding: 0;
+}
+
+.conteudo {
+    margin: 50px 600px;
+    position: relative;
+    border: solid 1px #ccc;
+    width: 700px;
+    height: 700px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    background-color: white;
+    box-sizing: border-box;
+    
+    
+   
+    
+    
+}
+.lucas{
+    width: 680px;
+    height: 680px;
+    object-fit: cover;
+    margin: 10px;
+    
+    
+    
+}
+
+.form {
+  
+    margin: 50px 600px;
+    position: relative;
+    border: solid 1px #ccc;
+    width: 700px;
+    height: 750px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.cadastro{
+    color: blueviolet;
+    background-color: white;
+    width: 250px;
+    
+    margin-bottom:10px;
+    margin-top:20px;
+ 
+}
+
+
